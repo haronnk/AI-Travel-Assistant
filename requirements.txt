@@ -1,0 +1,7 @@
+streamlit
+pandas
+googlemaps
+requests
+python-dotenv
+reportlab
+google-generativeai

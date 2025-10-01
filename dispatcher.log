@@ -1,0 +1,11 @@
+2025-10-01 20:17:42,210 - INFO - API queries_quota: 60
+2025-10-01 20:17:45,987 - INFO - API queries_quota: 60
+2025-10-01 20:17:46,087 - INFO - API queries_quota: 60
+2025-10-01 20:17:46,093 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+2025-10-01 20:17:46,850 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/geocode/json?address=Plan+a+5-day+trip+to+Rome+in+October+with+hotels+and+attractions.&key=AIzaSyBJK1b55P__d8E_QS-bO2EwYMRgwh8wATw HTTP/1.1" 200 None
+2025-10-01 20:17:46,851 - INFO - API queries_quota: 60
+2025-10-01 20:17:47,156 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.8967068%2C12.4822025&maxprice=None&minprice=None&radius=1500&type=lodging&key=AIzaSyBJK1b55P__d8E_QS-bO2EwYMRgwh8wATw HTTP/1.1" 200 9943
+2025-10-01 20:17:47,661 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.8967068%2C12.4822025&maxprice=None&minprice=None&radius=2000&type=tourist_attraction&key=AIzaSyBJK1b55P__d8E_QS-bO2EwYMRgwh8wATw HTTP/1.1" 200 14441
+2025-10-01 20:17:47,697 - DEBUG - Starting new HTTPS connection (1): api.open-meteo.com:443
+2025-10-01 20:17:48,328 - DEBUG - https://api.open-meteo.com:443 "GET /v1/forecast?latitude=41.8967068&longitude=12.4822025&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_mean,weathercode&timezone=auto HTTP/1.1" 200 None
+2025-10-01 20:34:58,901 - INFO - API queries_quota: 60
